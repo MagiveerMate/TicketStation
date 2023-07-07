@@ -1,0 +1,157 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/20737.jpg");
+  background-size: 100% 145%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end; /* Changed from "center" to "flex-end" */
+  align-items: end;
+  height: 60vh;
+  font-family: 'Ysabeau SC', sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+  max-width: 400px;
+  width: 100%;
+  font-family: 'Ysabeau SC', sans-serif;
+  margin-left: 12rem /* Added this line */
+}
+
+.heading {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 50px;
+  font-family: 'Ysabeau SC', sans-serif;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  
+}
+ /* Custom CSS for h1 element */
+ @media (max-width: 767px) {
+  #ride {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #ride {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  #ride {
+    font-size: 80px;
+  }
+}
+#contactHome{
+  border-radius: 15px;
+  background-color: lightgray;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+.contact-form button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.alert {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  margin-top: 10px;
+  display: none;
+}
+
+#ride {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: white;
+  font-size: 80px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  animation: glowing-white-animation 1.5s ease-in-out infinite;
+}
+
+@keyframes glowing-white-animation {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+}
+
+
+#footer {
+  padding: 40px 0;
+  background-image: linear-gradient(to right,
+			lightblue,
+			blue);
+  border: none;
+  height: 100px;
+  margin-top: 200px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.social-icon i {
+  font-size: 18px;
+}
+
+.color {
+  color: #fff;
+}
+
+.h-bg-facebook {
+  background-color: #3b5998;
+}
+
+.h-bg-twitter {
+  background-color: #1da1f2;
+}
+
+.h-bg-pinterest {
+  background-color: #bd081c;
+}
+
+.border-color {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.op-04 {
+  opacity: 0.4;
+}
